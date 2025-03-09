@@ -6,6 +6,11 @@ import Hero from './components/Hero.jsx'
 import CardsSection from './components/CardsSection.jsx'
 import FeaturesSection from './components/FeaturesSection.jsx'
 import BlogSection from './components/BlogSection.jsx'
+import CareerComponent from './components/CareerComponent.jsx'
+import DegreeComponent from './components/DegreeComponent.jsx'
+import Footer from './components/Footer.jsx'
+import Copyright  from './components/Copyright.jsx'
+
 
 createRoot(document.getElementById('root')).render(
 <div>
@@ -16,5 +21,10 @@ createRoot(document.getElementById('root')).render(
    <div className='lg:px-28 py-2 sm:px-1'><CardsSection/></div> 
    <FeaturesSection/>
     <div className='bg-[#FDF8F3]'><BlogSection/></div>
+    <CareerComponent/>
+    <DegreeComponent/>
+    <Footer/>
+    <Copyright/>
+ 
     </div>
 )
