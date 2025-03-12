@@ -17,6 +17,11 @@ const Nav = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 text-gray-700">
         <div className="mr-32 mt-1 md:flex gap-12 font-medium ">
+        <li>
+            <Link to="programs" smooth={true} duration={500} className="cursor-pointer hover:text-green-600">
+              Programs
+            </Link>
+          </li>
           <li>
             <Link to="about" smooth={true} duration={500} className="cursor-pointer hover:text-green-600">
               About
@@ -52,6 +57,11 @@ const Nav = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <ul className="md:hidden absolute top-16 left-0 w-full bg-white shadow-lg py-4 flex flex-col items-center space-y-4">
+            <li>
+            <Link to="programs" smooth={true} duration={500} className="cursor-pointer hover:text-green-600">
+           Programs
+            </Link>
+          </li>
           <li>
             <Link to="about" smooth={true} duration={500} className="cursor-pointer hover:text-green-600">
               About

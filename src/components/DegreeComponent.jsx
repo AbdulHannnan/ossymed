@@ -2,7 +2,7 @@ import React from "react";
 
 const DegreeComponent = () => {
   return (
-    <div className="bg-white py-12  lg:px-56 flex flex-col md:flex-row justify-between items-center">
+    <div  id="contact" className="bg-white py-12  lg:px-56 flex flex-col md:flex-row justify-between items-center">
       <div>
         <h2 className="text-3xl px-4 lg:text-4xl font-bold text-gray-900">Find your next degree</h2>
         <p className="text-green-600 mt-2 lg:text-xl px-4">

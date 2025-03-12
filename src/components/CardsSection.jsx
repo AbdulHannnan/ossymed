@@ -10,7 +10,7 @@ const CardsSection = () => {
   ];
 
   return (
-    <div className="w-full grid grid-cols-2 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <div id="programs" className="w-full grid grid-cols-2 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       {cards.map((card, index) => (
         <Card key={index} {...card} />
       ))}

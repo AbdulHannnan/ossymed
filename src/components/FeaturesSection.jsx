@@ -30,7 +30,7 @@ export default function FeatureSection() {
     ];
   
     return (
-      <section className="py-20 px-10 bg-[#FDF8F3]">
+      <section id="about" className="py-20 px-10 bg-[#FDF8F3]">
         <h2 className="text-3xl font-bold text-center mb-14 lg:text-6xl">
           Everything you need all in one place
         </h2>
